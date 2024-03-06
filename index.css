@@ -23,7 +23,7 @@
   text-align: center;
   top: 0;
   font-size: 50px;
-  animation: fadeIn 2s ease-in-out, bounce 2s infinite;
+  animation: fadeIn 2s ease-in-out, bounce 3s infinite;
   
 }
 .carousel-caption p{
