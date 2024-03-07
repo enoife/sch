@@ -86,6 +86,10 @@
   background-color: orangered !important;
   color: white !important;
 }
+.btn:hover a{
+
+  color: white !important;
+}
 .daycare{
   position: absolute;
   background-color: orangered;
