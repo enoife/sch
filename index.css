@@ -65,6 +65,7 @@
   width: 18rem;
   background-color: rgb(232, 238, 238) !important;
 }
+
 .cards:hover{
    transform: translateY(-15px);
    background-color: aqua !important;
@@ -72,9 +73,9 @@
 }
 .icon{
   font-size: 90px;
-  align-items: center;
-  text-align: center;
+ justify-content: center;
   color: blue;
+  display: flex;
 }
 .cards-title{
   color: orangered;
@@ -90,13 +91,34 @@
 
   color: white !important;
 }
-.daycare{
+.daycare_container {
   position: absolute;
+  border: 1px soild red;
+  background-color: transparent;
+  display: flex;
+  margin-top: -40px;
+  width: 537px;
+  align-items: center;
+}
+.daycare_container2 {
+  position: absolute;
+  border: 1px soild red;
+  background-color: transparent;
+  display: flex;
+  margin-top: -40px;
+  width: 650px;
+  align-items: center;
+}
+.daycare{
   background-color: orangered;
+  width: 150px;
+  /* margin-top: -20px; */
+  margin-left: auto;
+  
 }
 .daycare p{
   color: wheat;
-  display: inline-block;
+  
 }
 .iconss{
   color: orange;
