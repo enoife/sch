@@ -26,6 +26,20 @@ h2{
   justify-content: space-between;
   padding: 20px 0;
 }
+
+.input-box select{
+  width: 340px;
+  height: 41px;
+  top: 5px;
+  gap: 0px;
+  border-radius: 8px 8px 8px 8px;
+  border: 2px;
+  opacity: 0px;
+  background: #FFFFFF;
+  /* border: 2px solid #0B022F */
+
+
+}
 .input-box{
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +84,7 @@ h2{
 .button-container button:hover{
   transform: translateY(-10px);
   border: 2px solid orangered !important;
-  background-imageq: orangered !important;
+  background-image: orangered !important;
   color: white !important;
 }
 @media(max-width:600px){
